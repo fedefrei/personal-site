@@ -1,12 +1,12 @@
 const Hero = () =>
 (
-	<div id="hero" class="hero route bg-image" style={{ backgroundImage: "url(assets/img/hero-bg.jpg)" }}>
-		<div class="overlay-itro"></div>
-		<div class="hero-content display-table">
-			<div class="table-cell">
-				<div class="container">
-					<h1 class="hero-title mb-4">Hi! I am Federico Freiberger</h1>
-					<p class="hero-subtitle"><span class="typed" data-typed-items="Developer"></span></p>
+	<div id="hero" className="hero route bg-image grayscale" style={{ backgroundImage: "url(img/el-fede.jpeg)", backgroundPosition: "0% 25%" }}>
+		<div className="overlay-itro"></div>
+		<div className="hero-content display-table">
+			<div className="table-cell">
+				<div className="container">
+					<h1 className="hero-title mb-4">Hi! I am Federico Freiberger</h1>
+					<p className="hero-subtitle"><span className="typed" data-typed-items="Developer"></span></p>
 				</div>
 			</div>
 		</div>

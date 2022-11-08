@@ -1,3 +1,51 @@
+import Image from "next/image";
+import elFede from "../public/img/el-fede.jpeg"
+
+const DataAboutItem = ({ label, text }) =>
+(
+	<p>
+		<span className="title-s">{label}: </span>
+		<span>{text}</span>
+	</p>
+)
+
+const PresentationCard = () => (
+	<div className="row">
+		<div className="col-sm-6 col-md-5">
+			<div className="about-img">
+				<Image src={elFede} className="img-fluid rounded b-shadow-a" alt="" />
+			</div>
+		</div>
+		<div className="col-sm-6 col-md-7">
+			<div className="about-info">
+				<DataAboutItem label="Name" text="Federico Freiberger" />
+				<DataAboutItem label="Profile" text=".net/React Developer" />
+				<DataAboutItem label="Email" text="frei.federico@gmail.com" />
+				<DataAboutItem label="Country" text="Argentina" />
+				<DataAboutItem label="Timezone" text="GMT -3 (Buenos Aires)" />
+			</div>
+		</div>
+	</div>
+)
+
+const LeadText = ({ children }) => (
+	<p className="lead">
+		{children}
+	</p>
+)
+
+const AboutMe = () => (
+	<div className="about-me pt-4 pt-md-0">
+		<div className="title-box-2">
+			<h5 className="title-left">
+				About me
+			</h5>
+		</div>
+		<LeadText>I love providing people the means to make their lives easier thru technology. Working on the software industry from 10+ years now.</LeadText>
+		<LeadText>I also love music and audio stuff!! #nerd</LeadText>
+	</div>
+)
+
 const About = () =>
 (
 	<section id="about" className="about-mf sect-pt4 route">
@@ -7,46 +55,10 @@ const About = () =>
 					<div className="box-shadow-full">
 						<div className="row">
 							<div className="col-md-6">
-								<div className="row">
-									<div className="col-sm-6 col-md-5">
-										<div className="about-img">
-											<img src="img/testimonial-2.jpg" className="img-fluid rounded b-shadow-a" alt="" />
-										</div>
-									</div>
-									<div className="col-sm-6 col-md-7">
-										<div className="about-info">
-											<p><span className="title-s">Name: </span> <span>Morgan Freeman</span></p>
-											<p><span className="title-s">Profile: </span> <span>full stack developer</span></p>
-											<p><span className="title-s">Email: </span> <span>contact@example.com</span></p>
-											<p><span className="title-s">Phone: </span> <span>(617) 557-0089</span></p>
-										</div>
-									</div>
-								</div>
+								<PresentationCard />
 							</div>
 							<div className="col-md-6">
-								<div className="about-me pt-4 pt-md-0">
-									<div className="title-box-2">
-										<h5 className="title-left">
-											About me
-										</h5>
-									</div>
-									<p className="lead">
-										Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-										imperdiet et, porttitor
-										at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-										porttitor accumsan tincidunt.
-									</p>
-									<p className="lead">
-										Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-										porttitor volutpat. Vestibulum
-										ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-									</p>
-									<p className="lead">
-										Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-										Nulla porttitor accumsan
-										tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-									</p>
-								</div>
+								<AboutMe />
 							</div>
 						</div>
 					</div>
