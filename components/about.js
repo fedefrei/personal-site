@@ -34,17 +34,19 @@ const LeadText = ({ children }) => (
 	</p>
 )
 
-const AboutMe = () => (
-	<div className="about-me pt-4 pt-md-0">
-		<div className="title-box-2">
-			<h5 className="title-left">
-				About me
-			</h5>
+function AboutMe() {
+	return (
+		<div className="about-me pt-4 pt-md-0">
+			<div className="title-box-2">
+				<h5 className="title-left">
+					About me
+				</h5>
+			</div>
+			<LeadText>I love providing people the means to make their lives easier thru technology. Working on the software industry from 10+ years now.</LeadText>
+			<LeadText>I also love music and audio stuff!! #nerd</LeadText>
 		</div>
-		<LeadText>I love providing people the means to make their lives easier thru technology. Working on the software industry from 10+ years now.</LeadText>
-		<LeadText>I also love music and audio stuff!! #nerd</LeadText>
-	</div>
-)
+	);
+}
 
 const About = () =>
 (
