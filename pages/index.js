@@ -1,9 +1,9 @@
-import About from '../components/about';
-import Contact from '../components/contact';
-import Courses from '../components/courses';
-import Hero from '../components/hero';
-import Layout from '../components/layout';
-import Skills from '../components/skills';
+import About from "../components/about";
+import Contact from "../components/contact";
+import Courses from "../components/courses";
+import Hero from "../components/hero";
+import Layout from "../components/layout";
+import Skills from "../components/skills";
 
 const IndexPage = () => {
 	return (
@@ -13,8 +13,8 @@ const IndexPage = () => {
 			<Skills />
 			<Courses />
 			<Contact />
-		</Layout >
-	)
+		</Layout>
+	);
 };
 
 export default IndexPage;

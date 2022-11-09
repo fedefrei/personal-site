@@ -1,4 +1,4 @@
 export const data = {
-    name : "Federico",
-    lastName : "Freiberger"
-}
+	name: "Federico",
+	lastName: "Freiberger",
+};

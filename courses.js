@@ -7,7 +7,7 @@ export const data = [
 		keywords: ["reactjs", "react", "frontend", "intermmeditate"],
 		dateCompleted: null,
 		pluralsightStars: 4,
-		duration: 14160 //In seconds
+		duration: 14160, //In seconds
 	},
 	{
 		id: "cb023a50-6da5-40b7-8b24-ed3d0a140da0",
@@ -17,6 +17,6 @@ export const data = [
 		keywords: ["reactjs", "react", "frontend", "beginner"],
 		dateCompleted: "2022-11-02",
 		pluralsightStars: 4,
-		duration: 14160 //In seconds
+		duration: 14160, //In seconds
 	},
-]
+];

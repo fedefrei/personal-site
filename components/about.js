@@ -1,13 +1,12 @@
 import Image from "next/image";
-import elFede from "../public/img/el-fede.jpeg"
+import elFede from "../public/img/el-fede.jpeg";
 
-const DataAboutItem = ({ label, text }) =>
-(
+const DataAboutItem = ({ label, text }) => (
 	<p>
 		<span className="title-s">{label}: </span>
 		<span>{text}</span>
 	</p>
-)
+);
 
 const PresentationCard = () => (
 	<div className="row">
@@ -26,30 +25,25 @@ const PresentationCard = () => (
 			</div>
 		</div>
 	</div>
-)
+);
 
-const LeadText = ({ children }) => (
-	<p className="lead">
-		{children}
-	</p>
-)
+const LeadText = ({ children }) => <p className="lead">{children}</p>;
 
 function AboutMe() {
 	return (
 		<div className="about-me pt-4 pt-md-0">
 			<div className="title-box-2">
-				<h5 className="title-left">
-					About me
-				</h5>
+				<h5 className="title-left">About me</h5>
 			</div>
-			<LeadText>I love providing people the means to make their lives easier thru technology. Working on the software industry from 10+ years now.</LeadText>
+			<LeadText>
+				I love providing people the means to make their lives easier thru technology. Working on the software industry from 10+ years now.
+			</LeadText>
 			<LeadText>I also love music and audio stuff!! #nerd</LeadText>
 		</div>
 	);
 }
 
-const About = () =>
-(
+const About = () => (
 	<section id="about" className="about-mf sect-pt4 route">
 		<div className="container">
 			<div className="row">
@@ -68,6 +62,6 @@ const About = () =>
 			</div>
 		</div>
 	</section>
-)
+);
 
 export default About;

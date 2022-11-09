@@ -4,12 +4,8 @@ const Courses = () => (
 			<div className="row">
 				<div className="col-sm-12">
 					<div className="title-box text-center">
-						<h3 className="title-a">
-							Portfolio
-						</h3>
-						<p className="subtitle-a">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-						</p>
+						<h3 className="title-a">Portfolio</h3>
+						<p className="subtitle-a">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 						<div className="line-mf"></div>
 					</div>
 				</div>
@@ -32,7 +28,10 @@ const Courses = () => (
 								</div>
 								<div className="col-sm-4">
 									<div className="w-like">
-										<a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+										<a href="portfolio-details.html">
+											{" "}
+											<span className="bi bi-plus-circle"></span>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -56,7 +55,10 @@ const Courses = () => (
 								</div>
 								<div className="col-sm-4">
 									<div className="w-like">
-										<a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+										<a href="portfolio-details.html">
+											{" "}
+											<span className="bi bi-plus-circle"></span>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -80,7 +82,10 @@ const Courses = () => (
 								</div>
 								<div className="col-sm-4">
 									<div className="w-like">
-										<a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+										<a href="portfolio-details.html">
+											{" "}
+											<span className="bi bi-plus-circle"></span>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -104,7 +109,10 @@ const Courses = () => (
 								</div>
 								<div className="col-sm-4">
 									<div className="w-like">
-										<a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+										<a href="portfolio-details.html">
+											{" "}
+											<span className="bi bi-plus-circle"></span>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -128,7 +136,10 @@ const Courses = () => (
 								</div>
 								<div className="col-sm-4">
 									<div className="w-like">
-										<a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+										<a href="portfolio-details.html">
+											{" "}
+											<span className="bi bi-plus-circle"></span>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -152,17 +163,19 @@ const Courses = () => (
 								</div>
 								<div className="col-sm-4">
 									<div className="w-like">
-										<a href="portfolio-details.html"> <span className="bi bi-plus-circle"></span></a>
+										<a href="portfolio-details.html">
+											{" "}
+											<span className="bi bi-plus-circle"></span>
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</section>
-)
+);
 
 export default Courses;
