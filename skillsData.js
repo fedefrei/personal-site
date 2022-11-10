@@ -8,7 +8,7 @@ export const skills = [
 	{
 		id: 2,
 		title: "SQL Server",
-		iconClass: "bi-card-checklist",
+		iconClass: "bi-briefcase",
 		description: "Entity Framework, Dapper, Queries, Stored procdures and the whole deal",
 	},
 	{

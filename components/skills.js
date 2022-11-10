@@ -1,8 +1,6 @@
-import { skills } from "../skills";
+import { skills } from "../skillsData";
 
-const SkillBox = ({ skill }) => {
-	const { iconClass, description, title } = skill;
-
+const SkillBox = ({ title, iconClass, description }) => {
 	return (
 		<div className="col-md-4">
 			<div className="service-box">
@@ -34,7 +32,7 @@ const Skills = () => (
 			</div>
 			<div className="row">
 				{skills.map((skill) => (
-					<SkillBox skill={skill} key={skill.id} />
+					<SkillBox title={skill.title} iconClass={skill.iconClass} description={skill.description} key={skill.id} />
 				))}
 			</div>
 		</div>
