@@ -1,4 +1,4 @@
-import { skills } from "../skillsData";
+import { mainSkills } from "../skillsData";
 
 const SkillBox = ({ title, iconClass, description }) => {
 	return (
@@ -31,12 +31,13 @@ const Skills = () => (
 				</div>
 			</div>
 			<div className="row">
-				{skills.map((skill) => (
+				{mainSkills.map((skill) => (
 					<SkillBox title={skill.title} iconClass={skill.iconClass} description={skill.description} key={skill.id} />
 				))}
 			</div>
 		</div>
 	</section>
 );
+``;
 
 export default Skills;
