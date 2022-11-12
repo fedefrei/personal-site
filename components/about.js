@@ -18,7 +18,7 @@ const PresentationCard = () => (
 		<div className="col-sm-6 col-md-7">
 			<div className="about-info">
 				<DataAboutItem label="Name" text="Federico Freiberger" />
-				<DataAboutItem label="Profile" text=".net/React Developer" />
+				<DataAboutItem label="Profile" text=".NET Dev/React Dev" />
 				<DataAboutItem label="Email" text="frei.federico@gmail.com" />
 				<DataAboutItem label="Country" text="Argentina" />
 				<DataAboutItem label="Timezone" text="GMT -3 (Buenos Aires)" />

@@ -1,7 +1,13 @@
 import { mainJobs, freelanceProjects } from "../portfolioData";
 import { format } from "date-fns";
 
-const SkillsList = ({ skills }) => skills.map((skill) => <div class="badge text-bg-secondary mx-1">{skill}</div>);
+const SkillsList = ({ skills }) => (
+	<div className="text-center">
+		{skills.map((skill) => (
+			<div class="badge text-bg-secondary mx-1">{skill}</div>
+		))}
+	</div>
+);
 
 const MainProjects = () =>
 	mainJobs
@@ -27,9 +33,7 @@ const MainProjects = () =>
 						<div className="row py-2">
 							<div className="w-more">{job.description}</div>
 						</div>
-						<div>
-							<SkillsList skills={job.skills} />
-						</div>
+						<SkillsList skills={job.skills} />
 					</div>
 				</div>
 			</div>
@@ -54,9 +58,7 @@ const FreelanceProjects = () =>
 						<div className="row py-2">
 							<div className="w-more">{job.description}</div>
 						</div>
-						<div>
-							<SkillsList skills={job.skills} />
-						</div>
+						<SkillsList skills={job.skills} />
 					</div>
 				</div>
 			</div>
