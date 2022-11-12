@@ -4,6 +4,7 @@ import Portfolio from "../components/Portfolio";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 import Skills from "../components/Skills";
+import Courses from "../components/Courses";
 
 const IndexPage = () => {
 	return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
 			<About />
 			<Skills />
 			<Portfolio />
+			<Courses />
 			<Contact />
 		</Layout>
 	);

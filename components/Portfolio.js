@@ -2,7 +2,7 @@ import { mainJobs, freelanceProjects } from "../portfolioData";
 import { format } from "date-fns";
 
 const SkillsList = ({ skills }) => (
-	<div className="text-center">
+	<div className="text-left">
 		{skills.map((skill) => (
 			<div class="badge text-bg-secondary mx-1">{skill}</div>
 		))}
@@ -43,7 +43,7 @@ const FreelanceProjects = () =>
 	freelanceProjects
 		.sort((job1, job2) => (job1.dateStart < job2.dateStart ? 1 : -1))
 		.map((job) => (
-			<div className="col-md-3">
+			<div className="col-md-4">
 				<div className="work-box">
 					<div className="work-content">
 						<div className="row">
