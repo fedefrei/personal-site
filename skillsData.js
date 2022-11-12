@@ -2,14 +2,14 @@ export const mainSkills = [
 	{
 		id: 1,
 		title: ".NET Core",
-		iconClass: "bi-briefcase",
+		iconClass: "bi-microsoft",
 		description: "I have 5 years of experience working on the .NET stack",
 	},
 	{
 		id: 2,
 		title: "SQL Server",
 		iconClass: "bi-briefcase",
-		description: "Entity Framework, Dapper, Queries, Stored procdures and the whole deal",
+		description: "Entity Framework, Dapper, Stored procdures and the whole deal",
 	},
 	{
 		id: 3,
@@ -20,7 +20,7 @@ export const mainSkills = [
 	{
 		id: 4,
 		title: "ReactJS",
-		iconClass: "bi-phone",
+		iconClass: "bi-filetype-jsx",
 		description: "ReactJS developer on freelance jobs",
 	},
 	{
