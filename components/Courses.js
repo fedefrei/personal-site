@@ -6,7 +6,7 @@ const CoursesTaken = () =>
 		.filter((course) => course.dateCompleted)
 		.sort((course1, course2) => (course1.dateCompleted < course2.dateCompleted ? 1 : -1))
 		.map((course) => (
-			<div className="col-md-4">
+			<div className="col-md-4" key={course.id}>
 				<div className="work-box">
 					<div className="work-content">
 						<div className="row">
@@ -20,9 +20,11 @@ const CoursesTaken = () =>
 							<div className="w-more">{course.description}</div>
 						</div>
 						<div className="row px-4">
-							<button type="button" className="btn btn-outline-dark">
-								{course.path}
-							</button>
+							{course.path && (
+								<button type="button" className="btn btn-outline-dark">
+									{course.path}
+								</button>
+							)}
 						</div>
 					</div>
 				</div>

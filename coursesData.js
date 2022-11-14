@@ -42,7 +42,7 @@ export const data = [
 	{
 		id: 4,
 		title: "Microservices: The Big Picture",
-		path: "ASP.NET Microservices Path",
+		path: "ASP.NET Microservices",
 		code: "microservices-big-picture",
 		url: "https://app.pluralsight.com/library/courses/microservices-big-picture/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "microservices"],
@@ -54,7 +54,7 @@ export const data = [
 		duration: 6300, //In seconds
 	},
 	{
-		id: 4,
+		id: 38,
 		title: "Querying Data Using T-SQL",
 		path: "Querying Data with T-SQL from SQL Server",
 		code: "querying-data-using-tsql",
@@ -98,7 +98,7 @@ export const data = [
 	{
 		id: 7,
 		title: "Introduction to .NET Testing with NUnit 3",
-		path: "C# Unit Testing with NUnit Path",
+		path: "C# Unit Testing with NUnit",
 		code: "nunit-3-dotnet-testing-introduction",
 		url: "https://app.pluralsight.com/library/courses/nunit-3-dotnet-testing-introduction/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "nunit", "test"],
@@ -126,7 +126,7 @@ export const data = [
 	{
 		id: 9,
 		title: "Building Screaming Fast Websites on the Cheap Using Gatsby.js",
-		path: "THAT Conference 2019 Path",
+		path: "THAT Conference 2019",
 		code: "that-conference-2019-session-62",
 		url: "https://app.pluralsight.com/library/courses/that-conference-2019-session-62/table-of-contents",
 		keywords: ["frontend", "gatsby.js"],
@@ -181,7 +181,7 @@ export const data = [
 	{
 		id: 13,
 		title: "Object-Oriented Programming Fundamentals in C#",
-		path: "C# Development Fundamentals Path",
+		path: "C# Development Fundamentals",
 		code: "object-oriented-programming-fundamentals-csharp",
 		url: "https://app.pluralsight.com/library/courses/object-oriented-programming-fundamentals-csharp/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "oop"],
@@ -195,7 +195,7 @@ export const data = [
 	{
 		id: 14,
 		title: "Microsoft Azure Developer: Implementing Azure Cache",
-		path: "Microsoft Azure Storage for Developers Path",
+		path: "Microsoft Azure Storage for Developers",
 		code: "microsoft-azure-cache-implementing",
 		url: "https://app.pluralsight.com/library/courses/microsoft-azure-cache-implementing/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "cache"],
@@ -221,9 +221,9 @@ export const data = [
 		duration: 9360, //In seconds
 	},
 	{
-		id: 15,
+		id: 39,
 		title: "Testing with EF Core 2",
-		path: "Entity Framework Core Path",
+		path: "Entity Framework Core",
 		code: "ef-core-testing",
 		url: "https://app.pluralsight.com/library/courses/ef-core-testing/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "entity framework"],
@@ -265,7 +265,7 @@ export const data = [
 	{
 		id: 18,
 		title: "Clean Coding Principles in C#",
-		path: "C# Development Best Practices Path",
+		path: "C# Development Best Practices",
 		code: "csharp-clean-coding-principles",
 		url: "https://app.pluralsight.com/library/courses/csharp-clean-coding-principles/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "clean coding"],
@@ -279,7 +279,7 @@ export const data = [
 	{
 		id: 19,
 		title: "Dates and Times in .NET 2",
-		path: ".NET Class Libraries with C# Path",
+		path: ".NET Class Libraries with C#",
 		code: "dotnet-dates-times",
 		url: "https://app.pluralsight.com/library/courses/dotnet-dates-times/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "clean coding"],
@@ -293,7 +293,7 @@ export const data = [
 	{
 		id: 20,
 		title: "C# 8 Design Patterns: Data Access Patterns",
-		path: "Design Patterns in C# Path",
+		path: "Design Patterns in C#",
 		code: "c-sharp-design-patterns-data-access-patterns",
 		url: "https://app.pluralsight.com/library/courses/c-sharp-design-patterns-data-access-patterns/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "data access"],
@@ -307,7 +307,7 @@ export const data = [
 	{
 		id: 21,
 		title: "Microsoft Azure for .NET Developers - Cloud Patterns and Architecture",
-		path: ".NET Developer on Microsoft Azure Path",
+		path: ".NET Developer on Microsoft Azure",
 		code: "cmicrosoft-azure-dotnet-cloud-architecture-update",
 		url: "https://app.pluralsight.com/library/courses/microsoft-azure-dotnet-cloud-architecture-update/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "cloud", "azure"],
@@ -321,7 +321,7 @@ export const data = [
 	{
 		id: 22,
 		title: "Building Applications with React 17 and Redux",
-		path: "Building Web Applications with React Path",
+		path: "Building Web Applications with React",
 		code: "c-sharp-design-patterns-data-access-patterns",
 		url: "https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents",
 		keywords: ["reactjs", "react", "frontend", "intermmediate"],
@@ -335,7 +335,7 @@ export const data = [
 	{
 		id: 23,
 		title: "Creating Layouts with CSS Grid",
-		path: "Building Websites with HTML, CSS and JavaScript Path",
+		path: "Building Websites with HTML, CSS and JavaScript",
 		code: "css-grid-creating-layouts",
 		url: "https://app.pluralsight.com/library/courses/css-grid-creating-layouts/table-of-contents",
 		keywords: ["frontend", "intermmediate", "html", "css"],
@@ -349,7 +349,7 @@ export const data = [
 	{
 		id: 24,
 		title: "Building React Apps with TypeScript",
-		path: "Building Web Applications with React Path",
+		path: "Building Web Applications with React",
 		code: "react-apps-typescript-building",
 		url: "https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents",
 		keywords: ["frontend", "intermmediate", "html", "css"],
@@ -363,7 +363,7 @@ export const data = [
 	{
 		id: 25,
 		title: "Mocking with Moq 4 and NUnit",
-		path: "C# Unit Testing with NUnit Path",
+		path: "C# Unit Testing with NUnit",
 		code: "nunit-moq-mocking",
 		url: "https://app.pluralsight.com/library/courses/nunit-moq-mocking/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "nunit", "test", "moq"],
@@ -391,7 +391,7 @@ export const data = [
 	{
 		id: 27,
 		title: "React 17 Security: Best Practices",
-		path: "Building Web Applications with React Path",
+		path: "Building Web Applications with React",
 		code: "react-security-best-practices",
 		url: "https://app.pluralsight.com/library/courses/react-security-best-practices/table-of-contents",
 		keywords: ["reactjs", "react", "frontend", "intermmediate", "security"],
@@ -433,7 +433,7 @@ export const data = [
 	{
 		id: 30,
 		title: "Getting Started with ASP.NET 4 SignalR",
-		path: "ASP.NET MVC 5 Path",
+		path: "ASP.NET MVC 5",
 		code: "aspdotnet-signalr-getting-started",
 		url: "https://app.pluralsight.com/library/courses/aspdotnet-signalr-getting-started/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "signalR", ".net Framework"],
@@ -447,7 +447,7 @@ export const data = [
 	{
 		id: 31,
 		title: "Working with C# 9 Records",
-		path: "C# Development Fundamentals Path",
+		path: "C# Development Fundamentals",
 		code: "working-c-sharp-records",
 		url: "https://app.pluralsight.com/library/courses/working-c-sharp-records/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "records"],
@@ -461,7 +461,7 @@ export const data = [
 	{
 		id: 32,
 		title: "C# 8 Design Patterns: Mediator",
-		path: "Design Patterns in C# Path",
+		path: "Design Patterns in C#",
 		code: "c-sharp-design-patterns-mediator",
 		url: "https://app.pluralsight.com/library/courses/c-sharp-design-patterns-mediator/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "records"],
@@ -475,7 +475,7 @@ export const data = [
 	{
 		id: 33,
 		title: "Blazor 5: The Big Picture",
-		path: "Building Web Applications with Blazor Path",
+		path: "Building Web Applications with Blazor",
 		code: "blazor-big-picture",
 		url: "https://app.pluralsight.com/library/courses/blazor-big-picture/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "blazor", "frontend"],
@@ -489,7 +489,7 @@ export const data = [
 	{
 		id: 34,
 		title: "Defensive Coding in C#",
-		path: "C# Development Fundamentals Path",
+		path: "C# Development Fundamentals",
 		code: "csharp-defensive-coding",
 		url: "https://app.pluralsight.com/library/courses/csharp-defensive-coding/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "clean clode", "defensive"],
@@ -503,7 +503,7 @@ export const data = [
 	{
 		id: 35,
 		title: "EF Core 6: The Big Picture",
-		path: "EF Core 6 Path",
+		path: "EF Core 6",
 		code: "ef-core-6-big-picture",
 		url: "https://app.pluralsight.com/library/courses/ef-core-6-big-picture/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "entity framework", "core"],
@@ -517,7 +517,7 @@ export const data = [
 	{
 		id: 36,
 		title: "Core Python: Big Picture",
-		path: "Core Python Path",
+		path: "Core Python",
 		code: "core-python-big-picture",
 		url: "https://app.pluralsight.com/library/courses/core-python-big-picture/table-of-contents",
 		keywords: ["backend", "python", "big picture"],
@@ -531,7 +531,7 @@ export const data = [
 	{
 		id: 37,
 		title: "Domain-Driven Design Fundamentals",
-		path: "Domain-Driven Design Path",
+		path: "Domain-Driven Design",
 		code: "fundamentals-domain-driven-design",
 		url: "https://app.pluralsight.com/library/courses/fundamentals-domain-driven-design/table-of-contents",
 		keywords: ["asp.net", "backend", ".net", "c#", "ddd", "domain", "driven", "design"],

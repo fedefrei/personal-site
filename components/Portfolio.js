@@ -4,7 +4,9 @@ import { format } from "date-fns";
 const SkillsList = ({ skills }) => (
 	<div className="text-left">
 		{skills.map((skill) => (
-			<div class="badge text-bg-secondary mx-1">{skill}</div>
+			<div className="badge text-bg-secondary mx-1" key={skill}>
+				{skill}
+			</div>
 		))}
 	</div>
 );
@@ -13,7 +15,7 @@ const MainProjects = () =>
 	mainJobs
 		.sort((job1, job2) => (job1.dateStart < job2.dateStart ? 1 : -1))
 		.map((job) => (
-			<div className="col-md-4">
+			<div className="col-md-4" key={job.id}>
 				<div className="work-box">
 					<div className="portfolio-lightbox">
 						<div className="work-img text-center py-5 mw-20">
@@ -43,7 +45,7 @@ const FreelanceProjects = () =>
 	freelanceProjects
 		.sort((job1, job2) => (job1.dateStart < job2.dateStart ? 1 : -1))
 		.map((job) => (
-			<div className="col-md-4">
+			<div className="col-md-4" key={job.id}>
 				<div className="work-box">
 					<div className="work-content">
 						<div className="row">
