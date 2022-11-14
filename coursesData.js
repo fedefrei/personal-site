@@ -319,7 +319,7 @@ export const data = [
 		duration: 9060, //In seconds
 	},
 	{
-		id: 20,
+		id: 22,
 		title: "Building Applications with React 17 and Redux",
 		path: "Building Web Applications with React Path",
 		code: "c-sharp-design-patterns-data-access-patterns",
@@ -333,7 +333,7 @@ export const data = [
 		duration: 23940, //In seconds
 	},
 	{
-		id: 21,
+		id: 23,
 		title: "Creating Layouts with CSS Grid",
 		path: "Building Websites with HTML, CSS and JavaScript Path",
 		code: "css-grid-creating-layouts",
@@ -345,5 +345,201 @@ export const data = [
 		pluralsightStars: 5,
 		author: "Matt Henry",
 		duration: 6120, //In seconds
+	},
+	{
+		id: 24,
+		title: "Building React Apps with TypeScript",
+		path: "Building Web Applications with React Path",
+		code: "react-apps-typescript-building",
+		url: "https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents",
+		keywords: ["frontend", "intermmediate", "html", "css"],
+		description:
+			"TypeScript enables React applications to be developed with fewer bugs by catching them at compile-time instead of run-time. This course will teach you how to effectively use TypeScript to create robust web applications.",
+		dateCompleted: "2021-07-07 19:00:00",
+		pluralsightStars: 4,
+		author: "Mat Warger",
+		duration: 3420, //In seconds
+	},
+	{
+		id: 25,
+		title: "Mocking with Moq 4 and NUnit",
+		path: "C# Unit Testing with NUnit Path",
+		code: "nunit-moq-mocking",
+		url: "https://app.pluralsight.com/library/courses/nunit-moq-mocking/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "nunit", "test", "moq"],
+		description:
+			"Writing unit tests is hard when dependencies between classes make it tough to separate what's being tested from the rest of the system. Moq is a mocking library for .NET that makes it easy to create mock objects and make writing unit tests easier.",
+		dateCompleted: "2021-07-12 19:00:00",
+		pluralsightStars: 5,
+		author: "Jason Roberts",
+		duration: 6780, //In seconds
+	},
+	{
+		id: 26,
+		title: "Securing ASP.NET Core 3 with OAuth2 and OpenID Connect",
+		path: null,
+		code: "securing-aspnet-core-3-oauth2-openid-connect",
+		url: "https://app.pluralsight.com/library/courses/securing-aspnet-core-3-oauth2-openid-connect/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "openID", "oauth", "intermediate"],
+		description:
+			"When you're building an ASP.NET Core 3 MVC web app or API, you'll want to secure it sooner than later. In this course, you'll learn how to utilize OAuth2 and OpenID Connect, today's widely-used standards, to help you achieve your goals efficiently.",
+		dateCompleted: "2021-08-02 19:00:00",
+		pluralsightStars: 5,
+		author: "Kevin Dockx",
+		duration: 15600, //In seconds
+	},
+	{
+		id: 27,
+		title: "React 17 Security: Best Practices",
+		path: "Building Web Applications with React Path",
+		code: "react-security-best-practices",
+		url: "https://app.pluralsight.com/library/courses/react-security-best-practices/table-of-contents",
+		keywords: ["reactjs", "react", "frontend", "intermmediate", "security"],
+		description:
+			"React applications are often built to provide delightful experience to users but the resulting complexity can lead to security issues. This course will teach you how to harden your user interface code and prevent attacks against React components.",
+		dateCompleted: "2021-08-09 19:00:00",
+		pluralsightStars: 5,
+		author: "Marcin Hoppe",
+		duration: 3900, //In seconds
+	},
+	{
+		id: 28,
+		title: "Error Handling in C# with Exceptions",
+		path: null,
+		code: "c-sharp-error-handling-exceptions",
+		url: "https://app.pluralsight.com/library/courses/c-sharp-error-handling-exceptions/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "intermediate", "clean code"],
+		description:
+			"Understanding and using exceptions is crucial to creating readable code that responds correctly to errors at runtime. This course will teach you how to handle errors in C# applications by throwing, catching, filtering, and customizing exceptions.",
+		dateCompleted: "2021-08-13 19:00:00",
+		pluralsightStars: 5,
+		author: "Jason Roberts",
+		duration: 5820, //In seconds
+	},
+	{
+		id: 29,
+		title: "C# Interfaces",
+		path: null,
+		code: "using-csharp-interfaces",
+		url: "https://app.pluralsight.com/library/courses/using-csharp-interfaces/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "intermediate", "clean code", "interfaces"],
+		description:
+			"C# Interfaces help us create code that's maintainable, extensible, and easily testable. This course covers interfaces from the basics of 'what are interfaces?' and works up to advanced abstractions.",
+		dateCompleted: "2021-08-13 19:00:00",
+		pluralsightStars: 5,
+		author: "Jeremy Clark",
+		duration: 8580, //In seconds
+	},
+	{
+		id: 30,
+		title: "Getting Started with ASP.NET 4 SignalR",
+		path: "ASP.NET MVC 5 Path",
+		code: "aspdotnet-signalr-getting-started",
+		url: "https://app.pluralsight.com/library/courses/aspdotnet-signalr-getting-started/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "signalR", ".net Framework"],
+		description:
+			"Learn real-time web applications in ASP.NET with SignalR in a fast-paced, practical way. Do you need an application that sends live data to the browser? This course, that uses ASP.NET in .NET Framework, is for you.",
+		dateCompleted: "2021-09-24 19:00:00",
+		pluralsightStars: 4,
+		author: "Roland Guijt",
+		duration: 8580, //In seconds
+	},
+	{
+		id: 31,
+		title: "Working with C# 9 Records",
+		path: "C# Development Fundamentals Path",
+		code: "working-c-sharp-records",
+		url: "https://app.pluralsight.com/library/courses/working-c-sharp-records/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "c#", "records"],
+		description:
+			"Applying the concept of immutability is vital no matter what type of software you create. This course will teach you why that is and how to apply it using C#’s Records.",
+		dateCompleted: "2021-12-02 19:00:00",
+		pluralsightStars: 5,
+		author: "Roland Guijt",
+		duration: 4020, //In seconds
+	},
+	{
+		id: 32,
+		title: "C# 8 Design Patterns: Mediator",
+		path: "Design Patterns in C# Path",
+		code: "c-sharp-design-patterns-mediator",
+		url: "https://app.pluralsight.com/library/courses/c-sharp-design-patterns-mediator/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "c#", "records"],
+		description:
+			"Discover how to work with the mediator pattern. You will understand why this pattern exists and how to implement this in a C# application.",
+		dateCompleted: "2021-12-02 19:00:00",
+		pluralsightStars: 5,
+		author: "Steve Michelotti",
+		duration: 2220, //In seconds
+	},
+	{
+		id: 33,
+		title: "Blazor 5: The Big Picture",
+		path: "Building Web Applications with Blazor Path",
+		code: "blazor-big-picture",
+		url: "https://app.pluralsight.com/library/courses/blazor-big-picture/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "c#", "blazor", "frontend"],
+		description:
+			"Blazor is an incredible framework that you can use to develop rich and interactive client-side web UIs with C# instead of JavaScript. In this course, you’ll learn what Blazor is and why you should use it.",
+		dateCompleted: "2022-02-24 19:00:00",
+		pluralsightStars: 5,
+		author: "Barry Luijbregts",
+		duration: 1920, //In seconds
+	},
+	{
+		id: 34,
+		title: "Defensive Coding in C#",
+		path: "C# Development Fundamentals Path",
+		code: "csharp-defensive-coding",
+		url: "https://app.pluralsight.com/library/courses/csharp-defensive-coding/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "c#", "clean clode", "defensive"],
+		description:
+			"Learn techniques for strengthening your application’s defenses against the perils awaiting it in the real world. You will see how to write clean code, create unit tests, build clear methods, and prepare for the unexpected.",
+		dateCompleted: "2022-06-18 19:00:00",
+		pluralsightStars: 5,
+		author: "Deborah Kurata",
+		duration: 8040, //In seconds
+	},
+	{
+		id: 35,
+		title: "EF Core 6: The Big Picture",
+		path: "EF Core 6 Path",
+		code: "ef-core-6-big-picture",
+		url: "https://app.pluralsight.com/library/courses/ef-core-6-big-picture/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "c#", "entity framework", "core"],
+		description:
+			"EF Core is .NET Core’s official data persistence framework. This course will teach you core concepts for evaluating whether EF Core is the right choice for your data access needs and will prepare you to start your journey to EF Core mastery.",
+		dateCompleted: "2022-10-19 19:00:00",
+		pluralsightStars: 5,
+		author: "Deborah Kurata",
+		duration: 3660, //In seconds
+	},
+	{
+		id: 36,
+		title: "Core Python: Big Picture",
+		path: "Core Python Path",
+		code: "core-python-big-picture",
+		url: "https://app.pluralsight.com/library/courses/core-python-big-picture/table-of-contents",
+		keywords: ["backend", "python", "big picture"],
+		description:
+			"This course is a big picture introduction to Python, a widely used programming language growing in popularity, is simple to learn, and ultimately, fun to use.",
+		dateCompleted: "2022-10-19 19:00:00",
+		pluralsightStars: 5,
+		author: "Jason Olson",
+		duration: 3940, //In seconds
+	},
+	{
+		id: 37,
+		title: "Domain-Driven Design Fundamentals",
+		path: "Domain-Driven Design Path",
+		code: "fundamentals-domain-driven-design",
+		url: "https://app.pluralsight.com/library/courses/fundamentals-domain-driven-design/table-of-contents",
+		keywords: ["asp.net", "backend", ".net", "c#", "ddd", "domain", "driven", "design"],
+		description:
+			"This course will teach you the fundamentals of Domain- Driven Design (DDD) through a demonstration of customer interactions and a complex demo application, along with advice from renowned DDD experts.",
+		dateCompleted: "2022-10-21 19:00:00",
+		pluralsightStars: 5,
+		author: "Steve Smith and Julie Lerman",
+		duration: 17280, //In seconds
 	},
 ];
