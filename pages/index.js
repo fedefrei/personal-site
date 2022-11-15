@@ -5,10 +5,14 @@ import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 import Skills from "../components/Skills";
 import Courses from "../components/Courses";
+import Head from "next/head";
 
 const IndexPage = () => {
 	return (
 		<Layout>
+			<Head>
+				<title>Hi, I'm Federico!</title>
+			</Head>
 			<Hero />
 			<About />
 			<Skills />

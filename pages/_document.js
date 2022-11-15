@@ -17,6 +17,8 @@ export default function Document() {
 				<Main />
 				<NextScript />
 			</body>
+			<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+			<script src="/vendor/main.js"></script>
 		</Html>
 	);
 }

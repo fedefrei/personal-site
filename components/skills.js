@@ -19,7 +19,7 @@ const SkillBox = ({ title, iconClass, description }) => {
 };
 
 const Skills = () => (
-	<section id="services" className="services-mf pt-5 route">
+	<section id="skills" className="services-mf pt-5 route">
 		<div className="container">
 			<div className="row">
 				<div className="col-sm-12">
@@ -38,6 +38,5 @@ const Skills = () => (
 		</div>
 	</section>
 );
-``;
 
 export default Skills;
