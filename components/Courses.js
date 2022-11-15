@@ -1,10 +1,34 @@
 import { data } from "../coursesData";
 import { format } from "date-fns";
 import { useState } from "react";
+import Fuse from "fuse.js";
 
-const CoursesTaken = ({ show }) =>
-	data
-		.filter((course) => course.dateCompleted)
+const fuseOptions = {
+	includeScore: true,
+	// Search in `author` and in `tags` array
+	keys: ["title", "keywords", "description"],
+	threshold: 0.3,
+};
+
+const fuse = new Fuse(
+	data.filter((course) => course.dateCompleted),
+	fuseOptions
+);
+
+function SearchResults(keyword) {
+	if (keyword) {
+		return fuse.search(keyword).map((result) => result.item);
+	}
+
+	return data;
+}
+
+const CoursesTaken = ({ show, keyword }) => {
+	const results = SearchResults(keyword);
+
+	if (results.length === 0) return null;
+
+	return results
 		.sort((course1, course2) => (course1.dateCompleted < course2.dateCompleted ? 1 : -1))
 		.slice(0, show)
 		.map((course) => (
@@ -32,6 +56,7 @@ const CoursesTaken = ({ show }) =>
 				</div>
 			</div>
 		));
+};
 
 const ShowMoreButton = ({ coursesToShow, setCoursesToShow }) => {
 	if (data.length <= coursesToShow) return null;
@@ -49,6 +74,7 @@ const ShowMoreButton = ({ coursesToShow, setCoursesToShow }) => {
 
 const Courses = () => {
 	const [coursesToShow, setCoursesToShow] = useState(12);
+	const [searchKeyword, setKeyword] = useState("");
 
 	return (
 		<section id="courses" className="portfolio-mf sect-pt4 route">
@@ -62,8 +88,20 @@ const Courses = () => {
 						</div>
 					</div>
 				</div>
+				<div className="container">
+					<div className="row justify-content-md-center">
+						<div className="col-md-6 mb-4">
+							<input
+								className="form-control"
+								placeholder="Enter a keyword, year, technology..."
+								value={searchKeyword}
+								onChange={(event) => setKeyword(event.target.value)}
+							></input>
+						</div>
+					</div>
+				</div>
 				<div className="row">
-					<CoursesTaken show={coursesToShow} />
+					<CoursesTaken show={coursesToShow} keyword={searchKeyword} />
 				</div>
 				<ShowMoreButton coursesToShow={coursesToShow} setCoursesToShow={setCoursesToShow} />
 			</div>
