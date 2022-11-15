@@ -20,7 +20,7 @@ function SearchResults(keyword) {
 		return fuse.search(keyword).map((result) => result.item);
 	}
 
-	return data;
+	return data.filter((course) => course.dateCompleted);
 }
 
 const CoursesTaken = ({ courses, show }) => {
