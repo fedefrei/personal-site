@@ -4,7 +4,7 @@ const Hero = () => (
 		<div className="hero-content display-table">
 			<div className="table-cell">
 				<div className="container">
-					<h1 className="hero-title mb-4">Hi! I am Federico Freiberger</h1>
+					<h1 className="hero-title mb-4">Hi! I am Federico Freiberger!</h1>
 					<p className="hero-subtitle">
 						<span className="typed" data-typed-items="Developer"></span>
 					</p>
