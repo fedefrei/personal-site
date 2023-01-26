@@ -1,5 +1,5 @@
 const Hero = () => (
-	<div id="hero" className="hero route bg-image grayscale" style={{ backgroundImage: "url(img/el-fede.jpeg)", backgroundPosition: "0% 25%" }}>
+	<div id="hero" className="hero route bg-image grayscale" style={{ backgroundImage: "url(img/el-fede.jpg)", backgroundPosition: "0% 25%" }}>
 		<div className="overlay-itro"></div>
 		<div className="hero-content display-table">
 			<div className="table-cell">
