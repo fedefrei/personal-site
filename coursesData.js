@@ -6,8 +6,10 @@ export const data = [
 		url: "https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents",
 		path: "Building Web Applications with React",
 		keywords: ["reactjs", "react", "frontend", "intermmediate"],
-		dateCompleted: null,
+		dateCompleted: "2023-02-04 19:00:00",
 		pluralsightStars: 4,
+		description:
+			"This course will teach you how to architect and build components in React that work together to present a consistent view across your web app.",
 		author: "Peter Kellner",
 		duration: 14160, //In seconds
 	},
