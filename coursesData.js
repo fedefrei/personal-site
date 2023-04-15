@@ -10,7 +10,7 @@ export const data = [
 		pluralsightStars: 4,
 		description:
 			"This course will teach you how to architect and build components in React that work together to present a consistent view across your web app.",
-		author: "Peter Kellner",
+		author: "Pluralsight - Peter Kellner",
 		duration: 14160, //In seconds
 	},
 	{
@@ -24,7 +24,7 @@ export const data = [
 		pluralsightStars: 5,
 		description:
 			"Learn the React way to build rich interactive UIs using both class and function components with React Hooks, and build a game for kids with it.",
-		author: "Samer Buna",
+		author: "Pluralsight - Samer Buna",
 		duration: 14520, //In seconds
 	},
 	{
@@ -38,7 +38,7 @@ export const data = [
 			"Interested in React? This course explores why React is worth considering, tradeoffs to consider, and reasons React may, or may not be the right fit for you.",
 		dateCompleted: "2022-10-25 19:00:00",
 		pluralsightStars: 4,
-		author: "Cory House",
+		author: "Pluralsight - Cory House",
 		duration: 14160, //In seconds
 	},
 	{
@@ -52,7 +52,7 @@ export const data = [
 			"Microservices are quickly being adopted by companies worldwide. This course teaches you the basics of microservice architectures from a 10,000-foot high view.",
 		dateCompleted: "2022-10-29 19:00:00",
 		pluralsightStars: 5,
-		author: "Antonio Goncalves",
+		author: "Pluralsight - Antonio Goncalves",
 		duration: 6300, //In seconds
 	},
 	{
@@ -66,7 +66,7 @@ export const data = [
 			"Whether you are just starting with SQL Server, or an experienced SQL developer looking to make a switch to T-SQL, this course will provide solid foundations and essential understanding of how SQLT-SQL work, to query data and troubleshoot...",
 		dateCompleted: "2020-05-12 19:00:00",
 		pluralsightStars: 5,
-		author: "Ami Levin",
+		author: "Pluralsight - Ami Levin",
 		duration: 7620, //In seconds
 	},
 	{
@@ -80,7 +80,7 @@ export const data = [
 			"Dapper provides a super fast library for mapping between databases and .NET objects. This code-focused course will introduce you to all the basics you need to be productive with Dapper and incorporate it into your own apps.",
 		dateCompleted: "2020-06-06 19:00:00",
 		pluralsightStars: 5,
-		author: "Steve Michelotti",
+		author: "Pluralsight - Steve Michelotti",
 		duration: 7620, //In seconds
 	},
 	{
@@ -94,7 +94,7 @@ export const data = [
 			"This course details recent additions to the standard SQL language and includes topics such as Analytic Functions and Extensions to GROUP BY, to name a few.",
 		dateCompleted: "2020-06-17 19:00:00",
 		pluralsightStars: 5,
-		author: "Scott Hecht",
+		author: "Pluralsight - Scott Hecht",
 		duration: 15900, //In seconds
 	},
 	{
@@ -108,7 +108,7 @@ export const data = [
 			"NUnit is one of the most downloaded test frameworks for .NET. This course will teach you everything you need to know to get started testing your code, including asserts, categories, data-driven tests, customization, and how to reduce test code...",
 		dateCompleted: "2020-06-27 19:00:00",
 		pluralsightStars: 5,
-		author: "Jason Roberts",
+		author: "Pluralsight - Jason Roberts",
 		duration: 7560, //In seconds
 	},
 	{
@@ -122,7 +122,7 @@ export const data = [
 			"In this course you'll learn how to write class libraries that target .NET Standard, so that your class libraries can be shared across different .NET platforms like .NET Framework, .NET Core, and Xamarin.",
 		dateCompleted: "2020-07-03 19:00:00",
 		pluralsightStars: 5,
-		author: "Thomas Claudius Huber",
+		author: "Pluralsight - Thomas Claudius Huber",
 		duration: 7560, //In seconds
 	},
 	{
@@ -135,7 +135,7 @@ export const data = [
 		description: "THAT Conference 2019 | Building Screaming Fast Websites on the Cheap Using Gatsby.js",
 		dateCompleted: "2020-07-26 19:00:00",
 		pluralsightStars: 5,
-		author: "Dustin Ewers",
+		author: "Pluralsight - Dustin Ewers",
 		duration: 7560, //In seconds
 	},
 	{
@@ -149,7 +149,7 @@ export const data = [
 			"In this course, we learn how to use the open source .NET Polly library to automatically retry operations rather than failing on the first exception.",
 		dateCompleted: "2020-07-28 19:00:00",
 		pluralsightStars: 5,
-		author: "Jason Roberts",
+		author: "Pluralsight - Jason Roberts",
 		duration: 4440, //In seconds
 	},
 	{
@@ -163,7 +163,7 @@ export const data = [
 			"Almost every app requires data to be stored in collections. This course gives you a basic introduction, covering the most widely used collections - arrays, lists, and dictionaries - and gets you up to speed with querying and modifying data in them.",
 		dateCompleted: "2020-08-06 19:00:00",
 		pluralsightStars: 5,
-		author: "Simon Robinson",
+		author: "Pluralsight - Simon Robinson",
 		duration: 12360, //In seconds
 	},
 	{
@@ -177,7 +177,7 @@ export const data = [
 			"This course gives you everything you need to become a productive C# developer on any platform. Learn the basics of reading and writing C# code in your own applications.",
 		dateCompleted: "2020-08-07 19:00:00",
 		pluralsightStars: 5,
-		author: "Scott Allen",
+		author: "Pluralsight - Scott Allen",
 		duration: 21900, //In seconds
 	},
 	{
@@ -191,7 +191,7 @@ export const data = [
 			"This course takes you, step by step, through the principles and practices of object-oriented programming (OOP). The course provides you with the firm foundation in OOP that you need to progress to intermediate-level C# courses.",
 		dateCompleted: "2020-08-15 19:00:00",
 		pluralsightStars: 5,
-		author: "Deborah Kurata",
+		author: "Pluralsight - Deborah Kurata",
 		duration: 12360, //In seconds
 	},
 	{
@@ -205,7 +205,7 @@ export const data = [
 			"Caching is very important to make your application performant and make it more available. In Azure, you use Azure Redis Cache for caching. In this course, you’ll learn what Azure Redis Cache is and how to use it.",
 		dateCompleted: "2020-08-16 19:00:00",
 		pluralsightStars: 5,
-		author: "Barry Luijbregts",
+		author: "Pluralsight - Barry Luijbregts",
 		duration: 3720, //In seconds
 	},
 	{
@@ -219,7 +219,7 @@ export const data = [
 			"Learn how to effectively apply asynchronous principles in any type of .NET application using async and await together with the task parallel library. This course will give you the insight to build fast, powerful, and easy to maintain applications.",
 		dateCompleted: "2020-08-22 19:00:00",
 		pluralsightStars: 4,
-		author: "Filip Ekberg",
+		author: "Pluralsight - Filip Ekberg",
 		duration: 9360, //In seconds
 	},
 	{
@@ -233,7 +233,7 @@ export const data = [
 			"When creating an application that uses EF Core you’ll quickly wonder how you can test your code. In this course you’ll learn about strategies that can help with testing your code by using in-memory database providers like InMemory and SQLite.",
 		dateCompleted: "2020-08-23 19:00:00",
 		pluralsightStars: 5,
-		author: "Kevin Dockx",
+		author: "Pluralsight - Kevin Dockx",
 		duration: 4380, //In seconds
 	},
 	{
@@ -247,7 +247,7 @@ export const data = [
 			"This course teaches the fundamentals of Domain-Driven Design (DDD) through a demonstration of customer interactions and a complex demo application, along with advice from Eric Evans.",
 		dateCompleted: "2020-09-24 19:00:00",
 		pluralsightStars: 5,
-		author: "Steve Smith and Julie Lerman",
+		author: "Pluralsight - Steve Smith and Julie Lerman",
 		duration: 15360, //In seconds
 	},
 	{
@@ -261,7 +261,7 @@ export const data = [
 			"Generics are a powerful feature of the C# language.This course will look at the built-in generic collections of the .NET framework, and use generic classes, interfaces, and delegates in building custom collections, and custom APIs for a repository.",
 		dateCompleted: "2020-09-30 19:00:00",
 		pluralsightStars: 5,
-		author: "Scott Allen",
+		author: "Pluralsight - Scott Allen",
 		duration: 15600, //In seconds
 	},
 	{
@@ -275,7 +275,7 @@ export const data = [
 			"Clean code is the art of writing code that humans can understand. Learn how to write C# in a style that's easy to write, read, and maintain. This course is filled with clear comparisons between 'dirty' C# code to avoid, and the 'clean' C# equivalent.",
 		dateCompleted: "2020-12-02 19:00:00",
 		pluralsightStars: 5,
-		author: "Cory House",
+		author: "Pluralsight - Cory House",
 		duration: 11940, //In seconds
 	},
 	{
@@ -289,7 +289,7 @@ export const data = [
 			"Learn the fundamentals and master the art of working with dates and times in .NET; a topic commonly taken for granted, but often the cause of unexpected errors. This course will make you comfortable working with dates and times in any .NET project!",
 		dateCompleted: "2021-03-03 19:00:00",
 		pluralsightStars: 5,
-		author: "Filip Ekberg",
+		author: "Pluralsight - Filip Ekberg",
 		duration: 5880, //In seconds
 	},
 	{
@@ -303,7 +303,7 @@ export const data = [
 			"In this course, you'll discover how to work with the different data access patterns. You'll learn about repositories, unit of work, lazy loading, and understand why these patterns exist and how to implement them in a C# application.",
 		dateCompleted: "2021-03-16 19:00:00",
 		pluralsightStars: 5,
-		author: "Filip Ekberg",
+		author: "Pluralsight - Filip Ekberg",
 		duration: 5040, //In seconds
 	},
 	{
@@ -317,7 +317,7 @@ export const data = [
 			"Building systems in the cloud gives you a range of abilities to build scalable, resilient, and highly available applications. This course presents you with design patterns and systems architecture for applications in Microsoft Azure.",
 		dateCompleted: "2021-05-15 19:00:00",
 		pluralsightStars: 5,
-		author: "Matt Tester",
+		author: "Pluralsight - Matt Tester",
 		duration: 9060, //In seconds
 	},
 	{
@@ -331,7 +331,7 @@ export const data = [
 			"Learn how to use React, Redux, React Router, and modern JavaScript to build an app with React. Use Webpack, Babel, Jest, React Testing Library, Enzyme, and more to build a custom React development environment and build process from the ground up.",
 		dateCompleted: "2021-06-25 19:00:00",
 		pluralsightStars: 5,
-		author: "Cory House",
+		author: "Pluralsight - Cory House",
 		duration: 23940, //In seconds
 	},
 	{
@@ -345,7 +345,7 @@ export const data = [
 			"Coding web layouts has never been easy until now. This course will teach you CSS Grid, a technology to define rational layouts for your websites that is finally ready to go mainstream.",
 		dateCompleted: "2021-07-03 19:00:00",
 		pluralsightStars: 5,
-		author: "Matt Henry",
+		author: "Pluralsight - Matt Henry",
 		duration: 6120, //In seconds
 	},
 	{
@@ -359,7 +359,7 @@ export const data = [
 			"TypeScript enables React applications to be developed with fewer bugs by catching them at compile-time instead of run-time. This course will teach you how to effectively use TypeScript to create robust web applications.",
 		dateCompleted: "2021-07-07 19:00:00",
 		pluralsightStars: 4,
-		author: "Mat Warger",
+		author: "Pluralsight - Mat Warger",
 		duration: 3420, //In seconds
 	},
 	{
@@ -373,7 +373,7 @@ export const data = [
 			"Writing unit tests is hard when dependencies between classes make it tough to separate what's being tested from the rest of the system. Moq is a mocking library for .NET that makes it easy to create mock objects and make writing unit tests easier.",
 		dateCompleted: "2021-07-12 19:00:00",
 		pluralsightStars: 5,
-		author: "Jason Roberts",
+		author: "Pluralsight - Jason Roberts",
 		duration: 6780, //In seconds
 	},
 	{
@@ -387,7 +387,7 @@ export const data = [
 			"When you're building an ASP.NET Core 3 MVC web app or API, you'll want to secure it sooner than later. In this course, you'll learn how to utilize OAuth2 and OpenID Connect, today's widely-used standards, to help you achieve your goals efficiently.",
 		dateCompleted: "2021-08-02 19:00:00",
 		pluralsightStars: 5,
-		author: "Kevin Dockx",
+		author: "Pluralsight - Kevin Dockx",
 		duration: 15600, //In seconds
 	},
 	{
@@ -401,7 +401,7 @@ export const data = [
 			"React applications are often built to provide delightful experience to users but the resulting complexity can lead to security issues. This course will teach you how to harden your user interface code and prevent attacks against React components.",
 		dateCompleted: "2021-08-09 19:00:00",
 		pluralsightStars: 5,
-		author: "Marcin Hoppe",
+		author: "Pluralsight - Marcin Hoppe",
 		duration: 3900, //In seconds
 	},
 	{
@@ -415,7 +415,7 @@ export const data = [
 			"Understanding and using exceptions is crucial to creating readable code that responds correctly to errors at runtime. This course will teach you how to handle errors in C# applications by throwing, catching, filtering, and customizing exceptions.",
 		dateCompleted: "2021-08-13 19:00:00",
 		pluralsightStars: 5,
-		author: "Jason Roberts",
+		author: "Pluralsight - Jason Roberts",
 		duration: 5820, //In seconds
 	},
 	{
@@ -429,7 +429,7 @@ export const data = [
 			"C# Interfaces help us create code that's maintainable, extensible, and easily testable. This course covers interfaces from the basics of 'what are interfaces?' and works up to advanced abstractions.",
 		dateCompleted: "2021-08-13 19:00:00",
 		pluralsightStars: 5,
-		author: "Jeremy Clark",
+		author: "Pluralsight - Jeremy Clark",
 		duration: 8580, //In seconds
 	},
 	{
@@ -443,7 +443,7 @@ export const data = [
 			"Learn real-time web applications in ASP.NET with SignalR in a fast-paced, practical way. Do you need an application that sends live data to the browser? This course, that uses ASP.NET in .NET Framework, is for you.",
 		dateCompleted: "2021-09-24 19:00:00",
 		pluralsightStars: 4,
-		author: "Roland Guijt",
+		author: "Pluralsight - Roland Guijt",
 		duration: 8580, //In seconds
 	},
 	{
@@ -457,7 +457,7 @@ export const data = [
 			"Applying the concept of immutability is vital no matter what type of software you create. This course will teach you why that is and how to apply it using C#’s Records.",
 		dateCompleted: "2021-12-02 19:00:00",
 		pluralsightStars: 5,
-		author: "Roland Guijt",
+		author: "Pluralsight - Roland Guijt",
 		duration: 4020, //In seconds
 	},
 	{
@@ -471,7 +471,7 @@ export const data = [
 			"Discover how to work with the mediator pattern. You will understand why this pattern exists and how to implement this in a C# application.",
 		dateCompleted: "2021-12-02 19:00:00",
 		pluralsightStars: 5,
-		author: "Steve Michelotti",
+		author: "Pluralsight - Steve Michelotti",
 		duration: 2220, //In seconds
 	},
 	{
@@ -485,7 +485,7 @@ export const data = [
 			"Blazor is an incredible framework that you can use to develop rich and interactive client-side web UIs with C# instead of JavaScript. In this course, you’ll learn what Blazor is and why you should use it.",
 		dateCompleted: "2022-02-24 19:00:00",
 		pluralsightStars: 5,
-		author: "Barry Luijbregts",
+		author: "Pluralsight - Barry Luijbregts",
 		duration: 1920, //In seconds
 	},
 	{
@@ -499,7 +499,7 @@ export const data = [
 			"Learn techniques for strengthening your application’s defenses against the perils awaiting it in the real world. You will see how to write clean code, create unit tests, build clear methods, and prepare for the unexpected.",
 		dateCompleted: "2022-06-18 19:00:00",
 		pluralsightStars: 5,
-		author: "Deborah Kurata",
+		author: "Pluralsight - Deborah Kurata",
 		duration: 8040, //In seconds
 	},
 	{
@@ -513,7 +513,7 @@ export const data = [
 			"EF Core is .NET Core’s official data persistence framework. This course will teach you core concepts for evaluating whether EF Core is the right choice for your data access needs and will prepare you to start your journey to EF Core mastery.",
 		dateCompleted: "2022-10-19 19:00:00",
 		pluralsightStars: 5,
-		author: "Deborah Kurata",
+		author: "Pluralsight - Deborah Kurata",
 		duration: 3660, //In seconds
 	},
 	{
@@ -527,7 +527,7 @@ export const data = [
 			"This course is a big picture introduction to Python, a widely used programming language growing in popularity, is simple to learn, and ultimately, fun to use.",
 		dateCompleted: "2022-10-19 19:00:00",
 		pluralsightStars: 5,
-		author: "Jason Olson",
+		author: "Pluralsight - Jason Olson",
 		duration: 3940, //In seconds
 	},
 	{
@@ -541,7 +541,21 @@ export const data = [
 			"This course will teach you the fundamentals of Domain- Driven Design (DDD) through a demonstration of customer interactions and a complex demo application, along with advice from renowned DDD experts.",
 		dateCompleted: "2022-10-21 19:00:00",
 		pluralsightStars: 5,
-		author: "Steve Smith and Julie Lerman",
+		author: "Pluralsight - Steve Smith and Julie Lerman",
 		duration: 17280, //In seconds
+	},
+	{
+		id: 38,
+		title: "AZ-900 Microsoft Azure Fundamentals",
+		path: "AZ-900 Microsoft Azure Fundamentals Path",
+		code: "az-900-microsoft-azure-fundamentals-2",
+		url: "https://app.pluralsight.com/library/courses/az-900-microsoft-azure-fundamentals-2/table-of-contents",
+		keywords: ["cloud", "azure", "az-900", "certification"],
+		description:
+			"Start your career in cloud computing with the AZ-900 Microsoft Azure Fundamentals certification. Discover and work with the different types of Azure tools and solutions available.",
+		dateCompleted: "2023-03-20 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Matthew Ulasien",
+		duration: 25200, //In seconds
 	},
 ];

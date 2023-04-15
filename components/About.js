@@ -1,5 +1,8 @@
+import { differenceInDays } from "date-fns";
 import Image from "next/image";
+import Link from "next/link";
 import elFede from "../public/img/el-fede.jpeg";
+import az900Certification from "../public/img/microsoft-az-900-certification.png";
 
 const DataAboutItem = ({ label, text }) => (
 	<p>
@@ -27,6 +30,14 @@ const PresentationCard = () => (
 	</div>
 );
 
+const NewsSpan = ({ newsDate }) => {
+	if (differenceInDays(new Date(), newsDate) > 90) {
+		return null;
+	}
+
+	return <span className="badge bg-primary me-1">New!</span>;
+};
+
 const LeadText = ({ children }) => <p className="lead">{children}</p>;
 
 function AboutMe() {
@@ -38,7 +49,14 @@ function AboutMe() {
 			<LeadText>
 				I love providing people the means to make their lives easier thru technology. Working on the software industry from 10+ years now.
 			</LeadText>
+			<LeadText>
+				<NewsSpan newsDate={new Date("2023-03-21")} />I got the certification "Microsoft Certified: Azure Fundamentals."{" "}
+				<Link href="https://www.credly.com/badges/f361eada-c76b-4236-957e-4a4a71f4bc1c/linked_in_profile">Check!</Link>
+			</LeadText>
 			<LeadText>I also love music and audio stuff!! #nerd</LeadText>
+			<div className="text-center">
+				<Image src={az900Certification} className="img-fluid rounded b-shadow-a" alt="" height={150}></Image>
+			</div>
 		</div>
 	);
 }
