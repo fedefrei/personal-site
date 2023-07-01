@@ -558,4 +558,18 @@ export const data = [
 		author: "Pluralsight - Matthew Ulasien",
 		duration: 25200, //In seconds
 	},
+	{
+		id: 39,
+		title: "C# 10: The Big Picture",
+		path: "C# 10 Path",
+		code: "c-sharp-10-big-picture",
+		url: "https://app.pluralsight.com/library/courses/c-sharp-10-big-picture/table-of-contents",
+		keywords: ["c#", "c# 10", ".net"],
+		description:
+			"C# is one of the most popular programming languages in the world. This course will teach you core concepts critical to evaluating whether C# is the right language for you, and will prepare you to kick start your learning journey to C# mastery.",
+		dateCompleted: "2023-07-01 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Mike Woodring",
+		duration: 3960, //In seconds
+	},
 ];
