@@ -572,4 +572,18 @@ export const data = [
 		author: "Pluralsight - Mike Woodring",
 		duration: 3960, //In seconds
 	},
+	{
+		id: 40,
+		title: "Microsoft Azure Developer: Implement IaaS Solutions",
+		path: "Developing Solutions for Microsoft Azure (AZ-204) Path",
+		code: "microsoft-azure-developer-implement-iaas-solutions",
+		url: "https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-iaas-solutions/table-of-contents",
+		keywords: ["cloud", "azure", "az-204", "certification", "IaaS", "virtual machine", "container"],
+		description:
+			"Implementing IaaS Solutions is a core skill in deploying application workloads in Azure. This course will prepare you for the exam AZ-204: Developing Solutions for Microsoft Azure.",
+		dateCompleted: "2023-07-04 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Anthony Nocentino",
+		duration: 6849, //In seconds
+	},
 ];
