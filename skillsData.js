@@ -3,7 +3,7 @@ export const mainSkills = [
 		id: 1,
 		title: ".NET Core",
 		iconClass: "bi-microsoft",
-		description: "I have 5 years of experience working on the .NET stack",
+		description: "I have 6 years of experience working on the .NET stack",
 	},
 	{
 		id: 2,
@@ -27,7 +27,7 @@ export const mainSkills = [
 		id: 5,
 		title: "Azure",
 		iconClass: "bi-cloud",
-		description: "Deployment and management of cloud solutions based in the Azure stack.",
+		description: "Deployment and management of cloud solutions based in the Azure stack",
 	},
 	{
 		id: 6,
