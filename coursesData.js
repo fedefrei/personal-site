@@ -586,4 +586,18 @@ export const data = [
 		author: "Pluralsight - Anthony Nocentino",
 		duration: 6849, //In seconds
 	},
+	{
+		id: 41,
+		title: "Microsoft Azure Developer: Create Azure App Service Web Apps",
+		path: "Developing Solutions for Microsoft Azure (AZ-204) Path",
+		code: "azure-developer-create-azure-app-service-web-apps",
+		url: "https://app.pluralsight.com/library/courses/azure-developer-create-azure-app-service-web-apps/table-of-contents",
+		keywords: ["cloud", "azure", "az-204", "certification", "IaaS", "webapps"],
+		description:
+			"This course will teach you how to implement Azure App Service web applications, deploy code to web apps, secure your apps with SSL certificates, and autoscale your web app resources manually, or automatically based on demand.",
+		dateCompleted: "2023-07-07 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Mike Pfeiffer",
+		duration: 3660, //In seconds
+	},
 ];
