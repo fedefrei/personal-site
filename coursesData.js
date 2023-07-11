@@ -600,4 +600,17 @@ export const data = [
 		author: "Pluralsight - Mike Pfeiffer",
 		duration: 3660, //In seconds
 	},
+	{
+		id: 42,
+		title: "Microsoft Azure Developer: Implement Azure Functions",
+		path: "Developing Solutions for Microsoft Azure (AZ-204) Path",
+		code: "microsoft-azure-developer-implement-azure-functions",
+		url: "https://app.pluralsight.com/library/courses/microsoft-azure-developer-implement-azure-functions/table-of-contents",
+		keywords: ["cloud", "azure", "az-204", "certification", "IaaS", "functions"],
+		description: "This course will teach you how to implement bindings, triggers, and Durable orchestrations with Azure Functions.",
+		dateCompleted: "2023-07-11 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Mark Heath",
+		duration: 2760, //In seconds
+	},
 ];
