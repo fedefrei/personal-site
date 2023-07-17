@@ -613,4 +613,18 @@ export const data = [
 		author: "Pluralsight - Mark Heath",
 		duration: 2760, //In seconds
 	},
+	{
+		id: 43,
+		title: "Microsoft Azure Developer: Develop Solutions with Cosmos DB Storage",
+		path: "Developing Solutions for Microsoft Azure (AZ-204) Path",
+		code: "microsoft-azure-developer-develop-solutions-cosmos-db-storage",
+		url: "https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-cosmos-db-storage/table-of-contents",
+		keywords: ["cloud", "azure", "az-204", "certification", "IaaS", "cosmos", "storage"],
+		description:
+			"Cosmos DB is a powerful multi-model database built for the cloud. ​This course will teach you​ the elements from Cosmos DB that are covered in the AZ-204 certification exam.",
+		dateCompleted: "2023-07-17 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - David Tucker",
+		duration: 3360, //In seconds
+	},
 ];
