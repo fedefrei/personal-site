@@ -627,4 +627,18 @@ export const data = [
 		author: "Pluralsight - David Tucker",
 		duration: 3360, //In seconds
 	},
+	{
+		id: 44,
+		title: "ASP.NET Core 6 Web API Fundamentals",
+		path: "ASP.NET Core 6 Web API Path",
+		code: "asp-dot-net-core-6-web-api-fundamentals",
+		url: "https://app.pluralsight.com/library/courses/asp-dot-net-core-6-web-api-fundamentals/table-of-contents",
+		keywords: ["c#", ".NET", "api", "web"],
+		description:
+			"In this course, you'll learn how to build an API with ASP.NET Core that connects to a database via Entity Framework Core from scratch.",
+		dateCompleted: "2023-07-26 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Kevin Dockx",
+		duration: 24480, //In seconds
+	},
 ];
