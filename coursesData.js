@@ -641,4 +641,18 @@ export const data = [
 		author: "Pluralsight - Kevin Dockx",
 		duration: 24480, //In seconds
 	},
+	{
+		id: 45,
+		title: "Microsoft Azure Developer: Develop Solutions with Blob Storage",
+		path: "Developing Solutions for Microsoft Azure (AZ-204) Path",
+		code: "microsoft-azure-developer-develop-solutions-blob-storage",
+		url: "https://app.pluralsight.com/library/courses/microsoft-azure-developer-develop-solutions-blob-storage/table-of-contents",
+		keywords: ["cloud", "azure", "az-204", "certification", "IaaS", "blob", "storage"],
+		description:
+			"Azure Blob Storage is Microsoft’s cloud-based object storage solution. This course will teach you the core concepts of Blob Storage, how to interact with Blob Storage from .NET, and how to implement data archiving and retention.",
+		dateCompleted: "2023-07-26 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Thomas Claudius Huber",
+		duration: 4620, //In seconds
+	},
 ];
