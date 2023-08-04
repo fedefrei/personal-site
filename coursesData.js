@@ -655,4 +655,17 @@ export const data = [
 		author: "Pluralsight - Thomas Claudius Huber",
 		duration: 4620, //In seconds
 	},
+	{
+		id: 46,
+		title: "Securing ASP.NET Core 6 with OAuth2 and OpenID Connect",
+		path: "ASP.NET Core 6 Web API Path",
+		code: "asp-dot-net-core-6-securing-oauth-2-openid-connect",
+		url: "https://app.pluralsight.com/library/courses/asp-dot-net-core-6-securing-oauth-2-openid-connect/table-of-contents",
+		keywords: ["azure", "identity server", "api", "c#", ".net", "IaaS", "blob", "storage"],
+		description: "How to secure your ASP.NET Core 6 web applications and APIs with today’s de facto standards: OAuth2 and OpenID Connect.",
+		dateCompleted: "2023-08-04 21:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Kevin Dockx",
+		duration: 35220, //In seconds
+	},
 ];
