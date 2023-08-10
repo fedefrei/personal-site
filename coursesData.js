@@ -668,4 +668,18 @@ export const data = [
 		author: "Pluralsight - Kevin Dockx",
 		duration: 35220, //In seconds
 	},
+	{
+		id: 47,
+		title: "ASP.NET Core 6 Web API: Best Practices",
+		path: "ASP.NET Core 6 Web API Path",
+		code: "aspdotnet-core-6-web-api-best-practices",
+		url: "https://app.pluralsight.com/library/courses/aspdotnet-core-6-web-api-best-practices/table-of-contents",
+		keywords: ["c#", ".NET", "api", "web"],
+		description:
+			"Modern apps require web APIs more than ever before. This course will teach you best practices for writing better web APIs using ASP.NET Core.",
+		dateCompleted: "2023-08-09 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Steve 'Ardalis' Smith",
+		duration: 11460, //In seconds
+	},
 ];
