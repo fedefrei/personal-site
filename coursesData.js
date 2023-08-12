@@ -682,4 +682,18 @@ export const data = [
 		author: "Pluralsight - Steve 'Ardalis' Smith",
 		duration: 11460, //In seconds
 	},
+	{
+		id: 48,
+		title: "Debugging and Error Handling in ASP.NET Core 6 Web API",
+		path: "ASP.NET Core 6 Web API Path",
+		code: "asp-dot-net-core-6-web-api-debugging-error-handling",
+		url: "https://app.pluralsight.com/library/courses/asp-dot-net-core-6-web-api-debugging-error-handling/table-of-contents",
+		keywords: ["c#", ".NET", "api", "web", "exceptions", "best practices"],
+		description:
+			"Learn how to properly handle errors in .NET 6 Web API projects. This course will teach you how to apply different error handling techniques for different scenarios in real applications to create a rich consumer experience.",
+		dateCompleted: "2023-08-12 19:00:00",
+		pluralsightStars: 3,
+		author: "Pluralsight - Nertil Poci",
+		duration: 6720, //In seconds
+	},
 ];
