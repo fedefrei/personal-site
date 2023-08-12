@@ -29,7 +29,7 @@ export default function Header() {
 						</li>
 						<li>
 							<a className="nav-link scrollto " href="#courses">
-								Courses
+								I'm always learning
 							</a>
 						</li>
 						<li>
