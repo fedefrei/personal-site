@@ -696,4 +696,18 @@ export const data = [
 		author: "Pluralsight - Nertil Poci",
 		duration: 6720, //In seconds
 	},
+	{
+		id: 49,
+		title: "Serverless Computing with Azure Functions",
+		path: "Azure Functions",
+		code: "serverless-computing-azure-functions",
+		url: "https://app.pluralsight.com/library/courses/serverless-computing-azure-functions/table-of-contents",
+		keywords: ["c#", ".NET", "functions", "cloud", "azure"],
+		description:
+			"A deep dive into the use of Azure Functions, including the use of several tools for creating, running, and operating Azure Functions.",
+		dateCompleted: "2023-08-22 19:00:00",
+		pluralsightStars: 3,
+		author: "Pluralsight - A Cloud Guru",
+		duration: 7200, //In seconds
+	},
 ];
