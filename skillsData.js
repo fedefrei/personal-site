@@ -9,7 +9,7 @@ export const mainSkills = [
 		id: 2,
 		title: "SQL Server",
 		iconClass: "bi-briefcase",
-		description: "Entity Framework, Dapper, Stored procdures and the whole deal",
+		description: "Entity Framework, Dapper, Stored procedures and the whole deal",
 	},
 	{
 		id: 3,
