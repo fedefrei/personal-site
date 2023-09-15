@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import Skills from "../components/Skills";
 import Courses from "../components/Courses";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 const IndexPage = () => {
 	return (
@@ -19,6 +20,7 @@ const IndexPage = () => {
 			<Portfolio />
 			<Courses />
 			<Contact />
+			<Analytics />
 		</Layout>
 	);
 };
