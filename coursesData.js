@@ -710,4 +710,18 @@ export const data = [
 		author: "Pluralsight - A Cloud Guru",
 		duration: 7200, //In seconds
 	},
+	{
+		id: 50,
+		title: "DevOps with GitHub and Azure: The Big Picture",
+		path: "Implementing DevOps with GitHub and Microsoft Azure Path",
+		code: "devops-github-azure-big-picture",
+		url: "https://app.pluralsight.com/library/courses/devops-github-azure-big-picture/table-of-contents",
+		keywords: ["azure", "devops", "github", "git"],
+		description:
+			"GitHub has a tool suite to support continuous delivery and DevOps. Want to see what this tool suite can do for you? Then this course is for you! In less than two hours, you get a full overview of how the tools can support your team.",
+		dateCompleted: "2024-01-13 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Marcel de Vries",
+		duration: 6900, //In seconds
+	},
 ];
