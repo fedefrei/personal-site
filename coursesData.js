@@ -724,4 +724,18 @@ export const data = [
 		author: "Pluralsight - Marcel de Vries",
 		duration: 6900, //In seconds
 	},
+	{
+		id: 51,
+		title: "Integrating AI Agents into Development Workflows",
+		path: "AI",
+		code: "integrating-ai-agents-development-workflows",
+		url: "https://app.pluralsight.com/library/courses/integrating-ai-agents-development-workflows/table-of-contents",
+		keywords: ["azure", "ai", "github", "git", "chatgpt", "agents", "workflows"],
+		description:
+			"Learn to build, deploy, and maintain AI agents that enhance developer workflows by automating code refactoring, DevOps tasks, and knowledge retrieval from documentation.",
+		dateCompleted: "2025-07-05 19:00:00",
+		pluralsightStars: 5,
+		author: "Pluralsight - Adam Bertram",
+		duration: 3780, //In seconds
+	},
 ];
