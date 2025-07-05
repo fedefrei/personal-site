@@ -38,7 +38,7 @@ export const mainJobs = [
 		id: 3,
 		dateStart: "2020-03-01 09:00:00",
 		dateEnd: null,
-		jobTitle: ".NET Developer",
+		jobTitle: "Team Lead/.NET Developer",
 		client: "MultiTracks.com",
 		jobType: "Full-Time (Contractor)",
 		description: "C#/.NET developer for the website, APIs and different internal tooling",
