@@ -3,7 +3,7 @@ export const mainSkills = [
 		id: 1,
 		title: ".NET Core",
 		iconClass: "bi-microsoft",
-		description: "I have 6 years of experience working on the .NET stack",
+		description: "C#, ASP.NET Core and .NET Framework, from APIs to full web apps, since 2017",
 	},
 	{
 		id: 2,
@@ -13,21 +13,21 @@ export const mainSkills = [
 	},
 	{
 		id: 3,
-		title: ".net Framework",
+		title: ".NET Framework",
 		iconClass: "bi-card-checklist",
-		description: "Worked on several .NET Framework projects",
+		description: "Maintaining and modernizing legacy .NET Framework systems",
 	},
 	{
 		id: 4,
 		title: "ReactJS",
 		iconClass: "bi-filetype-jsx",
-		description: "ReactJS developer on freelance jobs",
+		description: "React and Next.js front ends, plus React Native mobile apps",
 	},
 	{
 		id: 5,
 		title: "Azure",
 		iconClass: "bi-cloud",
-		description: "Deployment and management of cloud solutions based in the Azure stack",
+		description: "Cloud deployments on Azure (AZ-900 certified); also Railway and Docker",
 	},
 	{
 		id: 6,

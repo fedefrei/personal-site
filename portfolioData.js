@@ -41,7 +41,8 @@ export const mainJobs = [
 		jobTitle: "Team Lead/.NET Developer",
 		client: "MultiTracks.com",
 		jobType: "Full-Time (Contractor)",
-		description: "C#/.NET developer for the website, APIs and different internal tooling",
+		description:
+			"Team Lead and .NET developer for the MultiTracks.com website, public APIs and internal tooling. Lead a team, review code and own delivery, working with SQL Server, Redis and Azure.",
 		img: "multitracks-logo.svg",
 		skills: [
 			".Net Framework",
