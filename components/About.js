@@ -25,11 +25,18 @@ const About = () => (
 			<div className="row gy-5 gx-lg-5">
 				<div className="col-lg-6 about-text">
 					<p>
-						I build software that makes people's work easier. I've spent <strong>10+ years</strong> in the industry, and I'm currently{" "}
-						<strong>leading a team</strong> on the website, APIs and internal tooling at <strong>MultiTracks.com</strong>.
+						I've spent more than <strong>ten years</strong> building software for the web. Right now I <strong>lead a team</strong> at{" "}
+						<strong>MultiTracks.com</strong> that owns the website, the APIs and the internal tools that musicians and churches use every week.
 					</p>
-					<p>On the side I ship my own products end to end: design, code, deploy and support for real users.</p>
-					<p>Outside of work: music and audio.</p>
+					<p>
+						I care about the whole lifecycle, not only the code. On the side I build my own products from start to finish: I design them, write
+						the code, deploy them and support the people who use them. Several are live today, and a few others quietly run businesses from
+						behind a login.
+					</p>
+					<p>
+						My home stack is .NET, React, SQL Server and Azure. I keep learning all the time, and lately that means bringing AI agents into how I
+						build software. I work from Buenos Aires (GMT-3) in fluent English. When I'm not coding, I'm probably making music.
+					</p>
 				</div>
 				<div className="col-lg-6">
 					<div className="fact-grid">
