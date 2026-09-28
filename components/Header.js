@@ -1,44 +1,31 @@
+const links = [
+	{ href: "#about", label: "About" },
+	{ href: "#production", label: "In production" },
+	{ href: "#skills", label: "Skills" },
+	{ href: "#portfolio", label: "Experience" },
+	{ href: "#courses", label: "Learning" },
+	{ href: "#contact", label: "Contact" },
+];
+
+// Active state, scroll offset and the mobile toggle are handled by /vendor/main.js
 export default function Header() {
 	return (
-		<header id="header" className="fixed-top">
+		<header id="header" className="site-header fixed-top">
 			<div className="container d-flex align-items-center justify-content-between">
-				<h1 className="logo">
-					<a href="/">FF</a>
-				</h1>
+				<a className="logo scrollto" href="#hero" aria-label="Federico Freiberger, back to top">
+					FF
+				</a>
 				<nav id="navbar" className="navbar">
 					<ul>
-						<li>
-							<a className="nav-link scrollto active" href="#hero">
-								Home
-							</a>
-						</li>
-						<li>
-							<a className="nav-link scrollto" href="#about">
-								About
-							</a>
-						</li>
-						<li>
-							<a className="nav-link scrollto" href="#skills">
-								Skills
-							</a>
-						</li>
-						<li>
-							<a className="nav-link scrollto " href="#portfolio">
-								Portfolio
-							</a>
-						</li>
-						<li>
-							<a className="nav-link scrollto " href="#courses">
-								I'm always learning
-							</a>
-						</li>
-						<li>
-							<a className="nav-link scrollto" href="#contact">
-								Contact
-							</a>
-						</li>
+						{links.map((link) => (
+							<li key={link.href}>
+								<a className="nav-link scrollto" href={link.href}>
+									{link.label}
+								</a>
+							</li>
+						))}
 					</ul>
-					<i className="bi bi-list mobile-nav-toggle"></i>
+					<i className="bi bi-list mobile-nav-toggle" role="button" aria-label="Toggle navigation"></i>
 				</nav>
 			</div>
 		</header>

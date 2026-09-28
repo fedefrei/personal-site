@@ -2,16 +2,18 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
 	return (
-		<Html>
+		<Html lang="en">
 			<Head>
 				<link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" />
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 				<link rel="stylesheet" href="/vendor/bootstrap-icons/bootstrap-icons.css" />
-				<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-				<link href="/css/style.css" rel="stylesheet" />
-				<link href="/css/custom-style.css" rel="stylesheet" />
-				<title>Hi, I'm Federico!</title>
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+				<link
+					href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap"
+					rel="stylesheet"
+				/>
+				<link href="/css/theme.css" rel="stylesheet" />
+				<meta name="theme-color" content="#0b0f17" />
 			</Head>
 			<body>
 				<Main />

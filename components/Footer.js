@@ -1,17 +1,9 @@
 export default function Footer() {
 	return (
-		<footer>
-			<div className="container">
-				<div className="row">
-					<div className="col-sm-12">
-						<div className="copyright-box">
-							<p className="copyright">
-								&copy; Copyright <strong>Federico Freiberger</strong>. All Rights Reserved.
-							</p>
-							<p className="copyright">Logos trademarks belongs to the respective owners.</p>
-						</div>
-					</div>
-				</div>
+		<footer className="site-footer">
+			<div className="container d-flex flex-column flex-md-row justify-content-between gap-2">
+				<p>© {new Date().getFullYear()} Federico Freiberger</p>
+				<p>Logos and trademarks belong to their respective owners.</p>
 			</div>
 		</footer>
 	);

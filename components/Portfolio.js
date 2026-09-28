@@ -1,100 +1,74 @@
 import { mainJobs, freelanceProjects } from "../portfolioData";
 import { format } from "date-fns";
+import SectionTitle from "./SectionTitle";
 
-const SkillsList = ({ skills }) => (
-	<div className="text-left">
-		{skills.map((skill) => (
-			<div className="badge text-bg-secondary mx-1" key={skill}>
-				{skill}
+const byStartDateDesc = (job1, job2) => (job1.dateStart < job2.dateStart ? 1 : -1);
+
+const DateRange = ({ dateStart, dateEnd }) => (
+	<>
+		{format(new Date(dateStart), "MMM yyyy")} – {dateEnd ? format(new Date(dateEnd), "MMM yyyy") : "Present"}
+	</>
+);
+
+const ChipList = ({ items }) => (
+	<ul className="chip-list">
+		{items.map((item) => (
+			<li className="chip" key={item}>
+				{item}
+			</li>
+		))}
+	</ul>
+);
+
+const MainJobs = () => (
+	<ol className="timeline">
+		{[...mainJobs].sort(byStartDateDesc).map((job) => (
+			<li className={`timeline-item${job.dateEnd ? "" : " current"}`} key={job.id}>
+				<div className="card-surface">
+					<div className="job-head">
+						<div className="job-logo">
+							<img src={`img/${job.img}`} alt={`${job.client} logo`} />
+						</div>
+						<div>
+							<h3 className="job-title">{job.jobTitle}</h3>
+							<div className="job-meta">
+								{job.client} · <DateRange dateStart={job.dateStart} dateEnd={job.dateEnd} />
+							</div>
+						</div>
+					</div>
+					<p className="job-desc">{job.description}</p>
+					<ChipList items={job.skills} />
+				</div>
+			</li>
+		))}
+	</ol>
+);
+
+const FreelanceProjects = () => (
+	<div className="row g-3">
+		{[...freelanceProjects].sort(byStartDateDesc).map((job) => (
+			<div className="col-md-6 col-lg-4" key={job.id}>
+				<div className="card-surface hoverable freelance-card">
+					<h4>{job.client}</h4>
+					<div className="job-meta mb-3">
+						<DateRange dateStart={job.dateStart} dateEnd={job.dateEnd} />
+					</div>
+					<p className="job-desc">{job.description}</p>
+					<ChipList items={job.skills} />
+				</div>
 			</div>
 		))}
 	</div>
 );
 
-const MainProjects = () =>
-	mainJobs
-		.sort((job1, job2) => (job1.dateStart < job2.dateStart ? 1 : -1))
-		.map((job) => (
-			<div className="col-md-4" key={job.id}>
-				<div className="work-box">
-					<div className="portfolio-lightbox">
-						<div className="work-img text-center py-5 mw-20">
-							<img src={`img/${job.img}`} style={{ width: "240px", maxHeight: "150px" }} alt="" />
-						</div>
-					</div>
-					<div className="work-content">
-						<div className="row">
-							<h2 className="w-title">{job.client}</h2>
-							<div className="w-more">
-								<span className="w-ctegory">{job.jobTitle}</span>{" "}
-								<span className="w-date">
-									{format(new Date(job.dateStart), "MM/yyyy")} - {job.dateEnd ? format(new Date(job.dateEnd), "MM/yyyy") : "Current"}
-								</span>
-							</div>
-						</div>
-						<div className="row py-2">
-							<div className="w-more">{job.description}</div>
-						</div>
-						<SkillsList skills={job.skills} />
-					</div>
-				</div>
-			</div>
-		));
-
-const FreelanceProjects = () =>
-	freelanceProjects
-		.sort((job1, job2) => (job1.dateStart < job2.dateStart ? 1 : -1))
-		.map((job) => (
-			<div className="col-md-4" key={job.id}>
-				<div className="work-box">
-					<div className="work-content">
-						<div className="row">
-							<h4>{job.client}</h4>
-							<div className="w-more">
-								<span className="w-ctegory">{job.jobTitle}</span>{" "}
-								<span className="w-date">
-									{format(new Date(job.dateStart), "MM/yyyy")} - {job.dateEnd ? format(new Date(job.dateEnd), "MM/yyyy") : "Current"}
-								</span>
-							</div>
-						</div>
-						<div className="row py-2">
-							<div className="w-more">{job.description}</div>
-						</div>
-						<SkillsList skills={job.skills} />
-					</div>
-				</div>
-			</div>
-		));
-
 const Portfolio = () => (
-	<section id="portfolio" className="portfolio-mf sect-pt4 route">
+	<section id="portfolio" className="section">
 		<div className="container">
-			<div className="row">
-				<div className="col-sm-12">
-					<div className="title-box text-center">
-						<h3 className="title-a">Portfolio</h3>
-						<p className="subtitle-a">Projects that I'm glad to have been involved.</p>
-						<div className="line-mf"></div>
-					</div>
-				</div>
-			</div>
-			<div className="row">
-				<MainProjects />
-			</div>
-		</div>
-		<div className="container">
-			<div className="row">
-				<div className="col-sm-12">
-					<div className="title-box text-center">
-						<h3>Freelance Projects</h3>
-						<p className="subtitle-a">Projects that I've taken from scracth to finish.</p>
-						<div className="line-mf"></div>
-					</div>
-				</div>
-			</div>
-			<div className="row">
-				<FreelanceProjects />
-			</div>
+			<SectionTitle number="04" title="Experience" subtitle="Where I've worked." />
+			<MainJobs />
+			<h3 className="subsection-title">Freelance projects</h3>
+			<p className="text-muted-2 mb-4">Projects I took from scratch to finish.</p>
+			<FreelanceProjects />
 		</div>
 	</section>
 );

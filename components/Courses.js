@@ -2,6 +2,9 @@ import { data } from "../coursesData";
 import { format } from "date-fns";
 import { useState } from "react";
 import Fuse from "fuse.js";
+import SectionTitle from "./SectionTitle";
+
+const PAGE_SIZE = 6;
 
 const fuseOptions = {
 	includeScore: true,
@@ -10,101 +13,76 @@ const fuseOptions = {
 	threshold: 0.1,
 };
 
-const fuse = new Fuse(
-	data.filter((course) => course.dateCompleted),
-	fuseOptions
-);
+const completedCourses = data.filter((course) => course.dateCompleted);
+
+const fuse = new Fuse(completedCourses, fuseOptions);
 
 function SearchResults(keyword) {
 	if (keyword) {
 		return fuse.search(keyword).map((result) => result.item);
 	}
 
-	return data.filter((course) => course.dateCompleted);
+	return completedCourses;
 }
 
 const CoursesTaken = ({ courses, show }) => {
-	if (courses.length === 0) return null;
+	if (courses.length === 0) return <p className="empty-state">No courses match that search.</p>;
 
-	return courses
-		.sort((course1, course2) => (course1.dateCompleted < course2.dateCompleted ? 1 : -1))
-		.slice(0, show)
-		.map((course) => (
-			<div className="col-md-4" key={course.id}>
-				<div className="work-box">
-					<div className="work-content">
-						<div className="row">
-							<h4>{course.title}</h4>
-							<div className="w-more">
-								<span className="w-ctegory">Author: {course.author}</span>{" "}
-								<span className="w-date">Date Completed: {format(new Date(course.dateCompleted), "MM/yyyy")}</span>
+	return (
+		<div className="row g-3">
+			{[...courses]
+				.sort((course1, course2) => (course1.dateCompleted < course2.dateCompleted ? 1 : -1))
+				.slice(0, show)
+				.map((course) => (
+					<div className="col-md-6 col-lg-4" key={course.id}>
+						<div className="card-surface hoverable course-card">
+							<h3>{course.title}</h3>
+							<div className="course-meta">
+								{course.author} · {format(new Date(course.dateCompleted), "MMM yyyy")}
 							</div>
-						</div>
-						<div className="row py-2">
-							<div className="w-more">{course.description}</div>
-						</div>
-						<div className="row px-4">
-							{course.path && (
-								<button type="button" className="btn btn-outline-dark">
-									{course.path}
-								</button>
-							)}
+							<p className="course-desc">{course.description}</p>
+							{course.path && <span className="chip">{course.path}</span>}
 						</div>
 					</div>
-				</div>
-			</div>
-		));
+				))}
+		</div>
+	);
 };
 
 const ShowMoreButton = ({ coursesCount, coursesToShow, setCoursesToShow }) => {
 	if (coursesCount <= coursesToShow) return null;
 
 	return (
-		<div className="row">
-			<div className="text-center">
-				<button className="btn btn-dark w-50" onClick={() => setCoursesToShow(coursesToShow + 9)}>
-					Show me more
-				</button>
-			</div>
+		<div className="text-center mt-4">
+			<button className="btn-ghost" onClick={() => setCoursesToShow(coursesToShow + PAGE_SIZE)}>
+				Show more ({coursesCount - coursesToShow} left)
+			</button>
 		</div>
 	);
 };
 
 const Courses = () => {
-	const [coursesToShow, setCoursesToShow] = useState(12);
+	const [coursesToShow, setCoursesToShow] = useState(PAGE_SIZE);
 	const [searchKeyword, setKeyword] = useState("");
 	const courses = SearchResults(searchKeyword);
 
 	return (
-		<section id="courses" className="portfolio-mf sect-pt4 route">
+		<section id="courses" className="section">
 			<div className="container">
-				<div className="row">
-					<div className="col-sm-12">
-						<div className="title-box text-center">
-							<h3 className="title-a">Courses taken</h3>
-							<p className="subtitle-a">I'm always learning something.</p>
-							<div className="line-mf"></div>
-						</div>
-					</div>
+				<SectionTitle number="05" title="Continuous learning" subtitle={`${completedCourses.length} courses completed and counting.`} />
+				<div className="search-box">
+					<i className="bi bi-search"></i>
+					<input
+						aria-label="Search courses"
+						placeholder="Search by keyword, year, technology..."
+						value={searchKeyword}
+						onChange={(event) => {
+							setKeyword(event.target.value);
+							setCoursesToShow(PAGE_SIZE);
+						}}
+					/>
 				</div>
-				<div className="container">
-					<div className="row justify-content-md-center">
-						<div className="col-md-6 mb-4">
-							<input
-								className="form-control"
-								placeholder="Enter a keyword, year, technology..."
-								value={searchKeyword}
-								onChange={(event) => {
-									setKeyword(event.target.value);
-									setCoursesToShow(12);
-								}}
-							></input>
-						</div>
-					</div>
-				</div>
-				<div className="row">
-					<CoursesTaken show={coursesToShow} courses={courses} />
-				</div>
+				<CoursesTaken show={coursesToShow} courses={courses} />
 				<ShowMoreButton coursesCount={courses.length} coursesToShow={coursesToShow} setCoursesToShow={setCoursesToShow} />
 			</div>
 		</section>

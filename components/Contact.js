@@ -1,36 +1,19 @@
 const Contact = () => (
-	<section id="contact" className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{ backgroundImage: "url(img/overlay-bg.jpg)" }}>
-		<div className="overlay-mf"></div>
+	<section id="contact" className="section contact">
 		<div className="container">
-			<div className="row">
-				<div className="col-sm-12">
-					<div className="contact-mf">
-						<div id="contact" className="box-shadow-full">
-							<div className="row">
-								<div className="title-box-2 pt-4 pt-md-0">
-									<h5 className="title-left">Get in Touch</h5>
-								</div>
-								<div className="more-info">
-									<p className="lead">
-										Lets get in touch on LinkedIn or Twitter. I'm not much of a content creator but we can have fun.
-									</p>
-									<ul className="list-ico">
-										<li>
-											<a href="https://www.linkedin.com/in/federico-freiberger-b511054/">
-												<span className="bi bi-linkedin"></span>LinkedIn
-											</a>
-										</li>
-										<li>
-											<a href="https://twitter.com/fedefrei">
-												<span className="bi bi-twitter"></span>Twitter
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			<span className="eyebrow">// 06</span>
+			<h2>Let's talk.</h2>
+			<p>Open to interesting conversations and opportunities. The fastest way to reach me is by email or LinkedIn.</p>
+			<a className="contact-email" href="mailto:frei.federico@gmail.com">
+				frei.federico@gmail.com
+			</a>
+			<div className="contact-links">
+				<a className="btn-ghost" href="https://www.linkedin.com/in/federico-freiberger-b511054/" target="_blank" rel="noopener noreferrer">
+					<i className="bi bi-linkedin"></i>LinkedIn
+				</a>
+				<a className="btn-ghost" href="https://github.com/fedefrei" target="_blank" rel="noopener noreferrer">
+					<i className="bi bi-github"></i>GitHub
+				</a>
 			</div>
 		</div>
 	</section>
