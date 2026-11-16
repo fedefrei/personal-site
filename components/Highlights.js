@@ -11,14 +11,14 @@ const ChipList = ({ items }) => (
 	</ul>
 );
 
-const HighlightCard = ({ title, iconClass, url, linkLabel, description, bullets, skills }) => (
+const HighlightCard = ({ title, iconClass, url, linkLabel, privateLabel, description, bullets, skills }) => (
 	<div className="col-lg-6">
 		<article className="card-surface hoverable">
 			<div className="project-head">
 				<span className="project-icon">
 					<i className={`bi ${iconClass}`}></i>
 				</span>
-				{url ? <span className="pill pill-live">Live</span> : <span className="pill pill-private">Private · behind login</span>}
+				{url ? <span className="pill pill-live">Live</span> : <span className="pill pill-private">{privateLabel || "Private · behind login"}</span>}
 			</div>
 			<h3 className="project-title">{title}</h3>
 			{url && (

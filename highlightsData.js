@@ -52,4 +52,32 @@ export const highlights = [
 		],
 		skills: [".NET", "Minimal API", "React", "Vite", "SQLite", "Docker", "xUnit"],
 	},
+	{
+		id: 5,
+		title: "Botonera DMX - Church lighting control",
+		tag: "In production · Private",
+		iconClass: "bi-lightbulb",
+		privateLabel: "Private · on-site tool",
+		description:
+			"Stream Deck-style lighting console for a church: big scene buttons so any volunteer can run the lights through a USB OpenDMX interface, with smooth fades between scenes.",
+		bullets: [
+			"Own DMX output and effects engine (static, chase, pulse, rainbow) with master brightness and a toggleable blackout; fixtures and scenes are defined in a JSON config.",
+			"Always-on-top floating mode to run it next to ProPresenter, a web UI for tablets and phones on the same Wi-Fi, and an HTTP API so other programs can trigger scenes.",
+		],
+		skills: ["Python", "DMX512", "OpenDMX / FTDI", "pyserial", "HTTP API", "HTML", "JavaScript"],
+	},
+	{
+		id: 6,
+		title: "Ayudante de ProPresenter - Live production remote",
+		tag: "In production · Private",
+		iconClass: "bi-display",
+		privateLabel: "Private · on-site tool",
+		description:
+			"Remote control for ProPresenter 7, used at church services and live events: switch Looks, run stage timers and send stage messages from the PC, a tablet or a phone.",
+		bullets: [
+			"Bridges ProPresenter's remote protocol with no external dependencies and stays in sync live: the on-air Look lights up, timers turn amber in the last minute and red when over time, and it reconnects on its own.",
+			"Installable web app (PWA) plus a desktop app with an always-on-top mini bar; a hold-to-confirm safe mode prevents accidental taps, and a wired Ethernet setup keeps it working when event Wi-Fi is saturated.",
+		],
+		skills: ["Python", "ProPresenter API", "pywebview", "PWA", "HTML", "JavaScript"],
+	},
 ];
