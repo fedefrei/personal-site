@@ -11,7 +11,7 @@ const ChipList = ({ items }) => (
 	</ul>
 );
 
-const HighlightCard = ({ title, iconClass, url, linkLabel, privateLabel, description, bullets, skills }) => (
+const HighlightCard = ({ title, iconClass, url, linkLabel, privateLabel, caseStudyUrl, description, bullets, skills }) => (
 	<div className="col-lg-6">
 		<article className="card-surface hoverable">
 			<div className="project-head">
@@ -24,6 +24,11 @@ const HighlightCard = ({ title, iconClass, url, linkLabel, privateLabel, descrip
 			{url && (
 				<a className="project-link" href={url} target="_blank" rel="noopener noreferrer">
 					{linkLabel} ↗
+				</a>
+			)}
+			{caseStudyUrl && (
+				<a className="project-link" href={caseStudyUrl}>
+					Read the case study →
 				</a>
 			)}
 			<p className="project-desc">{description}</p>

@@ -80,4 +80,19 @@ export const highlights = [
 		],
 		skills: ["Python", "ProPresenter API", "pywebview", "PWA", "HTML", "JavaScript"],
 	},
+	{
+		id: 7,
+		title: "Self-extending spreadsheet ingestion with a local LLM",
+		tag: "Case study · Private",
+		iconClass: "bi-table",
+		privateLabel: "Private · case study",
+		caseStudyUrl: "/projects/spreadsheet-ingestion",
+		description:
+			"Reads spreadsheets from many external parties, each in its own layout, with a small language model that runs on local hardware and never produces a value. Each new layout is learned once, so the more the system is used, the less it needs the model.",
+		bullets: [
+			"For an unseen layout, the model only proposes which row holds the headings and what each column is. Code extracts every value; a person confirms the mapping once and later files in that layout are parsed with no model at all.",
+			"On 10 held-out layouts written after the prompt was frozen, it matched the hand-supplied ceiling: every value, none in the wrong field, against 1 of 10 for rules alone.",
+		],
+		skills: ["llama.cpp", "Vulkan", "Qwen3 (GGUF)", "JSON Schema", "Python", "C#", ".NET"],
+	},
 ];
